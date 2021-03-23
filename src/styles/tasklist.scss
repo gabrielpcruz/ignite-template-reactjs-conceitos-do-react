@@ -35,9 +35,13 @@ section.task-list {
         
         border-radius: 8px;
         border: 0;
-        
+
         &::placeholder {
           color: var(--text-light)
+        }
+
+        &:focus {
+          outline: none;
         }
       }
 
